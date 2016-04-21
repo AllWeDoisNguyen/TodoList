@@ -3,3 +3,29 @@
   They will automatically be included in application.css.
 */
 
+header {
+	color: white;
+	font-weight: bolder;
+	padding-top: 20em;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("https://media.licdn.com/media/p/6/005/0a3/2ee/22de455.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	text-align: center;
+}
+
+.container {
+	margin-left: 20em;
+	margin-right: 20em
+}
+table {
+	margin-right: auto;
+	margin-left: auto;
+	position: center;
+	table-layout: auto;
+	width: 100%
+}
+
+th {
+    height: 50px;
+}
